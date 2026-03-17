@@ -20,7 +20,7 @@ def test_simulate_command(tmp_path: Path) -> None:
 detectors: [H1]
 duration: 2.0
 output:
-  directory: {out_dir}
+  directory: {out_dir.as_posix()}
   prefix: run
 """
     )
