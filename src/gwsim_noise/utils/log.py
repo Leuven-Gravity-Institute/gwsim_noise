@@ -38,7 +38,7 @@ def setup_logger(
     else:
         level = int(log_level)
 
-    logger = logging.getLogger("gwsim_noise")
+    logger = logging.getLogger("gwsim-noise")
     logger.propagate = False
     logger.setLevel(level)
 
@@ -67,4 +67,4 @@ def setup_logger(
 
     if print_version:
         version = get_version_information()
-        logger.info("Running gwsim_noise version: %s", version)
+        logger.info("Running gwsim-noise version: %s", version)
