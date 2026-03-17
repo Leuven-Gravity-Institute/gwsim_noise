@@ -12,11 +12,12 @@ classifiers = [
   "Intended Audience :: Developers",
   "License :: OSI Approved :: MIT License",
   "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
   "Programming Language :: Python :: 3.14",
 ]
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 dynamic = ["version"]
 dependencies = ["typer>=0.24.1"]
 
@@ -27,11 +28,10 @@ test = [
   "pre-commit>=4.5.1",
   "pytest-cov>=7.0.0",
   "pytest-mock>=3.15.1",
-  "pytest-runner>=6.0.1",
   "pytest>=9.0.2",
 ]
 ci = ["pytest-github-actions-annotate-failures>=0.4.0"]
-dev = ["pre-commit>=4.5.1", "gwsim-noise[test,docs]"]
+dev = ["gwsim-noise[test,docs]"]
 docs = ["zensical>=0.0.27", "mkdocstrings-python>=2.0.3"]
 build = ["hatch>=1.16.5"]
 

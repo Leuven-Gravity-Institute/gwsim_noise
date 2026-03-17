@@ -1,4 +1,4 @@
-"""Main entry point for the gwsim_noise package."""
+"""Main entry point for the gwsim-noise package."""
 
 from __future__ import annotations
 

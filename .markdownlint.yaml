@@ -18,9 +18,8 @@ MD007:
 # Allow multiple consecutive blank lines for flexibility
 MD012: false
 
-# Enforce trailing punctuation in headings for consistency
-MD026:
-    punctuation: '.,;:!?'
+# Allow trailing punctuation in headings
+MD026: false
 
 # Allow inline HTML for flexibility in Markdown rendering
 MD033: false
